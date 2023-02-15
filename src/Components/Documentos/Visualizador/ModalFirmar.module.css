@@ -1,0 +1,13 @@
+.container{
+    width: 53%; 
+    margin: auto
+}
+
+.container_buttons{
+    display: flex;
+    justify-content: flex-end
+}
+
+.buttons{
+    margin-top: 20px
+}

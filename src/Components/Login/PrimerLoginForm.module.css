@@ -1,0 +1,68 @@
+.form {
+    /*margin-top: 20vh;*/
+    display: flex;
+    justify-content: center;
+  }
+  .legend {
+    text-align: center; 
+    font-weight: bold; 
+    margin: 30px;
+  }
+
+  .clave{
+    height: 95.2px;
+    box-sizing: border-box;
+  }
+  
+  .pass {
+    margin-top: 1.5em;
+    height: 95.2px;
+  }
+  
+  .label {
+    display: block;
+    color: #000;
+  }
+  
+  .input {
+    padding: 4px;
+    outline: none;
+  }
+  
+  /* .button{
+      margin-top: 3em;
+      background: #fff; 
+      border: .1em solid rgb(79, 65, 163); 
+      border-radius: 3px; 
+      width: 100%;
+      padding: 4px;
+      color: rgb(79, 65, 163);
+      cursor: pointer;
+      transition: all .15s;
+  } */
+  
+  .button {
+    background: rgb(36, 188, 237);
+    /* border: .1em solid rgb(79, 65, 163);  */
+    border: 0.1em solid rgb(36, 188, 237);
+    border-radius: 5px;
+    margin-top: 35px;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  
+  /* .button:hover{
+      background: rgb(79, 65, 163);
+      color: #fff;
+  } */
+
+  .errorMensaje{
+    text-align: left;
+    color: #d93025;
+    font-size: .9rem;
+}
+  

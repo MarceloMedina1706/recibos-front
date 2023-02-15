@@ -1,0 +1,23 @@
+.header{
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+}
+
+.title{
+    padding: 1em .1em;
+}
+
+.title p{
+    margin: 0; 
+    font-size: 1.15em;
+}
+
+.filter{
+    padding: 1.3em .1em;
+}
+
+.filter p{
+    margin: 0; 
+    font-size: .85em;
+}

@@ -1,0 +1,21 @@
+.pendientes{
+    font-size: .8em;
+}
+
+.vistos{
+    font-size: .8em; margin-top: .5em;
+}
+
+.firmados{
+    font-size: .8em; margin-top: .5em;
+    text-align: left;
+    width: 45%;
+}
+
+.btn_descargar{
+    font-size: .8em; 
+    margin-top: .5em;
+    text-align: right;  
+    width: 50%;
+    cursor: pointer;
+}

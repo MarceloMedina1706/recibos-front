@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+}
+
+.legend {
+  width: 30%;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table th,
+.table td {
+  width: 33%;
+}
+
+.margin_table {
+  margin-top: 1em;
+}
+
+.table_codigos {
+  width: 100%;
+}

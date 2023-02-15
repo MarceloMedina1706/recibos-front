@@ -1,0 +1,28 @@
+.fieldset{
+    width: 400px;
+    text-align: center;
+    color: rgb(109, 114, 121);
+    border: .1em solid rgb(109, 114, 121);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.legend{
+    font-size: "1em";
+    text-align: left;
+}
+
+.input{
+    padding: 8px 0;
+    width: 99%;
+    outline: none;
+    border: none;
+    font-size: 1.05em;
+    background: rgb(234, 240, 253);
+}
+
+@media screen and (max-width: 465px){
+    .fieldset{
+        width: calc(100% - 20px);
+    }
+}

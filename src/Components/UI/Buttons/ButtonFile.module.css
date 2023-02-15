@@ -1,0 +1,36 @@
+.container{
+  display: inline-block;
+  text-align: center;
+}
+
+.input {
+  /* width: 25%; */
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.input + .label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.label {
+  background: #fff;
+  border: 0.1em solid rgb(79, 65, 163);
+  text-align: center;
+  margin-left: 0.5em;
+  border-radius: 3px;
+  font-size: 0.8em;
+  color: rgb(79, 65, 163);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.label:hover {
+  background: rgb(79, 65, 163);
+  color: #fff;
+}

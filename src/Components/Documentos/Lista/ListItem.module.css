@@ -1,0 +1,96 @@
+:root{
+    --color-firmado: rgb(98, 197, 168);
+    --color-noFirmado: rgb(221, 112, 110);
+    --color-visto: rgb(244, 207, 20);
+}
+
+p{
+    margin: 0;
+}
+
+.recibo{
+    height: 75px;
+    width: 320px;
+    padding: 0; 
+    margin-top: 2px;
+    background: #fff;
+    color: inherit;
+    box-shadow: 0px 4px 6px -6px #444;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    transition: transform .3s;
+}
+
+.recibo:hover{
+    transform: scale(1.05, 1.05);
+}
+
+.recibo_active{
+    background: rgb(224, 224, 224);
+}
+
+.span_nofirmado{
+    width: 2%; 
+    background: var(--color-noFirmado);
+}
+
+.span_firmado{
+    width: 2%; 
+    background: var(--color-firmado);
+}
+
+.span_visto{
+    width: 2%;
+    background: var( --color-visto);
+}
+
+.span_ico{
+    margin-left: .5em; 
+    align-self: center;
+}
+
+.c_nofirmado{
+    color: var(--color-noFirmado);
+}
+
+.c_firmado{
+    color: var(--color-firmado);
+}
+
+.c_visto{
+    color: var( --color-visto);
+}
+
+.recibo > div{
+    align-self: center; 
+    display: flex; 
+    width: 98%;
+}
+
+.recibo > div > div{
+    margin-left: .5em;
+}
+
+.fecha{
+    font-size: .9em;
+}
+
+.tipo{
+    font-size: .6em; 
+    color: #000;
+}
+
+
+@media screen and (max-width: 980px){
+    .recibo{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .recibo{
+        height: 60px;
+        width: 95%;
+    }
+}

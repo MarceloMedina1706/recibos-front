@@ -1,0 +1,12 @@
+:root{
+  --var-header-background: #fff;
+  --var-min-width: 1000px;
+  --var-background: rgb(79, 65, 163);
+  --var-background-body: rgb(250, 250, 250);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+

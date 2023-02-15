@@ -1,0 +1,25 @@
+.item_submenu {
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  padding: 10px;
+  z-index: 700;
+  transition: all 0.3s;
+  
+  cursor: pointer;
+}
+
+.item_submenu > p {
+  text-align: left;
+  color: #000;
+  /* font-weight: bold; */
+  padding-left: 20px;
+}
+
+.item_submenu:hover {
+  background: rgba(134, 133, 133, 0.5);
+}
+
+.ico_color{
+  color: rgb(79, 65, 163)
+}

@@ -1,0 +1,44 @@
+.container_volver{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container_volver p{
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
+
+.title{
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+
+.container_logo{
+    /* height: 100px; */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_inputs{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container_buttons{
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container_buttons > div{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}

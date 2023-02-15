@@ -1,0 +1,98 @@
+.perfil{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0px 3px 2px -1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.perfil_header{
+    height: 75px;
+    background: var(--var-background);
+}
+
+.circulo{
+    width: 75px; 
+    height: 75px; 
+    margin: auto; 
+    border: .2em solid #fff; 
+    border-radius: 50%;
+    background: var(--var-background);
+    position: relative;
+    top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo p{
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.perfil_body{
+    margin-top: 40px;
+}
+
+.perfil_body p{
+    text-align: center;
+}
+
+.perfil_nombre{
+    font-size: 1.4em;
+    color: #000;
+}
+
+.perfil_mail{
+    font-size: .8em;
+    opacity: .6;
+    color: #000;
+}
+
+.perfil_footer{
+    height: 70px; 
+    box-sizing: border-box;
+    border-top: .1em solid rgba(134, 133, 133, .5);
+    cursor: pointer;
+    display: flex; 
+    align-items: center;
+    transition: all .3s;
+}
+
+.perfil_footer:hover{
+    background: rgba(134, 133, 133, .5);
+}
+
+.p_pendientes{
+    font-size: 0.7em;
+    opacity: 0.6;
+    color: rgb(250, 7, 7);
+}
+
+.p_sin_pendientes{
+    font-size: 0.7em;
+    opacity: 0.6;
+    color: rgb(52, 218, 35);
+}
+
+@media screen and (width > 450px) and ( width < 1100px) {
+    .perfil {
+      width: 267px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .perfil {
+        width: 450px;
+      }
+}
+
+@media screen and (max-width: 450px) {
+    .perfil {
+        width: 100%;
+    }
+}
